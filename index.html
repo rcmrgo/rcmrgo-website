@@ -1,0 +1,824 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Nimbo X - Más que un ECE, un Digital Patient Management System.</title>
+    <meta name="description" content="Nimbo X es el primer Expediente Clínico Electrónico totalmente gratis para consultorios médicos en LatAm">
+    <meta property="og:url" content="http://www.nimbo-x.com" />
+    <meta property="og:title" content="Nimbo X - Tu Consultorio Médico en la Nube, Gratis." />
+    <meta property="og:description" content="Nimbo X es el primer Expediente Clínico Electrónico en español totalmente gratis para consultorios médicos." />
+    <meta property="og:image" content="http://www.nimbo-x.com/img/social.png" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- hreflang codes -->
+    <link rel="alternate" hreflang="es" href="http://www.nimbo-x.com/" />
+    <link rel="alternate" hreflang="es-ar" href="http://www.nimbo-x.com/ar/" />
+    <link rel="alternate" hreflang="es-es" href="http://www.nimbo-x.com/es/" />
+    <link rel="alternate" hreflang="en-au" href="http://www.nimbo-x.com/au/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" /><link href="css/style.css" rel="stylesheet" />
+    <script src="https://cdn.optimizely.com/js/2450820186.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20755856-7', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    <!-- Begin Inspectlet Embed Code -->
+    <script type="text/javascript" id="inspectletjs">
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 514435355]);
+    (function() {
+    function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+    })();
+    </script>
+<!-- End Inspectlet Embed Code -->
+
+    <!-- Facebook Pixel Code -->
+
+   <script>
+     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+     t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '1442067832502465'); // Insert your pixel ID here.
+     fbq('track', 'PageView');
+     </script>
+     <noscript><img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1442067832502465&ev=PageView&noscript=1"
+     /></noscript>
+     <!-- DO NOT MODIFY -->
+     <!-- End Facebook Pixel Code -->
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+    <!--Navbar-->
+<div class="" id="top">
+  <!--div class="banner-nav mobile-hide">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-center">
+          <p><span class="text-white">¡Descarga Nimbo X desde el App Store! Descrubre de que se trata</span><a href="http://blog.nimbo-x.com/10-razones-por-las-que-3000-medicos-descargaron-nimbo-x/" target="__blank"> <span class="text-white"><b><u>aquí.</u></b></span></a></p>
+        </div>
+      </div>
+    </div>
+  </div-->
+  <nav class="nav navbar navbar-default">
+    <div class="container">
+      <div class="row local">
+        <div class="col-md-offset-11 col-md-1 float-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#dd-products">MÉXICO▾</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/">MÉXICO</a></li>
+              <li><a href="/ar/">ARGENTINA</a></li>
+              <li><a href="/es/">ESPAÑA</a></li>
+            </ul>
+          </li>
+        </div>
+      </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header margin-xstop">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-logo">
+<a href="/">          <img class="img-nav" src="img/logo1.png" alt="Nimbo X" />
+</a>        </div>
+      </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse margin-xstop" id="bs-example-navbar-collapse-1">
+        <ul class="navbar-nav navbar-right">
+            <li><a href="/modulos/">Producto</a></li>
+            <li class="dropdown" id="productos-link">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#dd-products">Soluciones ▾</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="/modulos/">Doctores</a></li>
+                  <li><a href="/clinicas/">Clínicas</a></li>
+                  <li><a href="/farmacias/">Farmacias</a></li>
+                  <li><a href="/dentistas/">Dentistas</a></li>
+
+                </ul>
+            </li>
+            <li><a href="/precios/">Precios</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/about/">Equipo</a></li>
+          <a class="btn-teal-nav" onclick="goog_report_conversion('https://app.nimbo-x.com/accounts/new'); trackOutboundLink('https://app.nimbo-x.com/accounts/new'); return false;" id="hire-link" href="https://app.nimbo-x.com/accounts/new" target="__blank">Registrate</a>
+          <a class="btn-green" onclick="trackOutboundLink('https://app.nimbo-x.com/'); return false;" id="hire-link" href="https://app.nimbo-x.com/" target="__blank">Login</a>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
+
+    <!--Header-->
+
+<div class="header">
+  <div class="container">
+    <div class="row align-center">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Organiza tu <span class=" rotating-text"></span><br>Digitaliza tus Expedientes.</h1>
+      </div>
+    </div>
+    <div class="row align-center">
+      <div class="col-md-8 col-md-offset-2 margin-smalltop">
+        <h4><span class="text-mediumGray">Nimbo X te permite administrar toda la información <br>de tus pacientes desde una sola aplicación.</span></h4>
+      </div>
+    </div>
+    <div class="row align-center">
+      <div class="col-md-12 margin-smalltop">
+        <a class="btn-blue" onclick="goog_report_conversion('https://app.nimbo-x.com/accounts/new'); trackOutboundLink('https://app.nimbo-x.com/accounts/new'); return false;"  href="https://app.nimbo-x.com/accounts/new">Registrate Gratis</a>
+        <a href="/precios/" class="btn-teal mobile-hide">Conoce los Planes</a>
+      </div>
+    </div>
+    <div class="row align-center">
+      <div class="col-md-12 margin-mediumtop">
+        <a data-toggle="modal" data-target="#modal-demo" href="#"><span class="text-lightGray"><u>Pide una Demo</u></span></a>
+      </div>
+    </div>
+    <div class="row align-center mobile-hide">
+      <div class="col-md-12 margin-top">
+        <script src="https://fast.wistia.com/embed/medias/o7rw9thhkq.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_o7rw9thhkq popover=true popoverContent=link" style="display:inline"><a href="#"><img class="img-banner"src="img/header-screen-01.png"></a></span>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Beneficios-->
+
+<div class="beneficios">
+  <div class="container">
+    <div class="row margin-mediumtop">
+      <div class="col-md-6 align-center">
+        <img class="img-header margin-bigtop"src="img/ilus-macbook.png">
+      </div>
+      <div class="col-md-6">
+        <h5><span class="text-lightGray"><b>SIEMPRE DEBIÓ DE SER FÁCIL.</b></span></h5>
+        <h3>Descubre los beneficios de integrar toda la información de tu organización en la nube.</h3>
+        <div class="row margin-mediumtop">
+          <div class="col-md-1">
+            <img class="img-30 margin-xstop" src="img/check.png">
+          </div>
+          <div class="col-md-10">
+            <h4>Tu información organizada</h4>
+            <p>Lleva un mejor control de tu consultorio sin importar donde estés.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <img class="img-30 margin-xstop" src="img/check.png">
+          </div>
+          <div class="col-md-10">
+            <h4>Haz más ágil tu consulta</h4>
+            <p>En segundos puedes consultar el expediente de pacientes, crear nuevas consultas o revisar tu agenda de los próximos días.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <img class="img-30 margin-xstop" src="img/check.png">
+          </div>
+          <div class="col-md-10">
+            <h4>Tu información está segura</h4>
+            <p>Contamos con los niveles más altos de encriptación y toda la información está respaldada en nuestros servidores en Estados Unidos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<!-- Banner -->
+
+<div class="banner-screen">
+  <div class="container-fluid">
+    <div class="row margin-top">
+      <div class="col-md-5 col-md-offset-1">
+        <h3><img class="img-40" src="img/heart.png">Nuestros usuarios nos aman.</h3>
+        <p class="margin-smalltop">Desarrollamos Nimbo X pensando en médicos como tu. <br>El 93% de nuestros usuarios están tan satisfechos que nos recomiendan a sus colegas.<br><b>¡Descargala hoy en tu Desktop!</b></p>
+        <div class="row margin-top">
+          <a class="btn-purple" href="http://goo.gl/Oc4oui">Descarga para Windows</a>
+          <a class="btn-blue" href="http://goo.gl/wsHbJW">Descarga para Mac</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Features-->
+
+<div class="features">
+  <div class="container">
+    <div class="row margin-extratop">
+      <div class="col-md-8 col-md-offset-2 margin-top">
+        <h5 align="center"><span class="text-blue"><b>¿TU EXPEDIENTE ACTUAL TIENE ESTO?</b></span></h5>
+        <h4 align="center">Nimbo X tiene toda la funcionalidad que necesitas para llevar <br>un control rápido, sencillo y eficaz de todos los datos de tu organización.</h4>
+        <hr>
+      </div>
+    </div>
+    <div class="row margin-smalltop margin-bigbottom">
+      <div class="col-md-12">
+        <div class="row margin-smalltop">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="img/cal.png">
+                <h4 class="margin-smalltop">Agenda Médica</h4>
+                <p>Planifica, agenda y controla tus consultas con una agenda integrada a los expedientes de tus pacientes.</p>
+              </div>
+            </div>
+            <div class="row margin-top">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="img/asist.png">
+                <h4 class="margin-smalltop">Cuentas para asistentes</h4>
+                <p>Tu asistente podrá ayudarte a manejar tu agenda médica para que tu te encargues de tratar a tus pacientes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="img/file.png">
+                <h4 class="margin-smalltop">Historia Clínica y Notas de evolución</h4>
+                <p>LLleva tus notas de consultas, historia clínica, estudios de gabinete y recetas médicas en la nube.</p>
+              </div>
+            </div>
+            <div class="row margin-top">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="img/file1.png">
+                <h4 class="margin-smalltop">Almacenamiento de archivos</h4>
+                <p>Completa el expediente de tus pacientes adjuntando sus radiografías, estudios de laboratorio o fotos del padecimiento.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="img/print.png">
+                <h4 class="margin-smalltop">Impresión de recetas y expedientes</h4>
+                <p>Configura tu receta médica y ten disponible la opción de imprimir los expedientes de tus pacientes</p>
+              </div>
+            </div>
+            <div class="row margin-top">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="img/alert-01.png">
+                <h4 class="margin-smalltop">Interacciones entre Medicamentos</h4>
+                <p>Usamos la tecnología de Wolters Kluwer para analizar y darte alertas si hay interacciones entre los medicamentos que estás recetando.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bigtop">
+      <div class="col-md-12 align-center">
+        <a href="/modulos/" class="btn-teal">Ver más sobre los Módulos</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Precios-->
+
+<div class="precios margin-bigtop">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 align-center">
+        <h5><span class="text-lightGray"><b>NIMBO X TE AHORRA DINERO Y TIEMPO.</b></span></h5>
+        <h4 class="margin-smalltop">Nimbo X en su versión básica siempre será gratis.<br> Si quieres desatar todo el potencial de almacenar tus datos en la nube con funcionalidades increíbles tenemos un plan especial para ti.</h4>
+        <hr>
+      </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1">
+
+<!--NimboX Org-->
+
+    <div class="col-md-4 margin-top">
+      <div class="box-orange">
+        <div class="row margin-top">
+          <div class="col-md-10 col-md-offset-1 align-center">
+            <span class="text-lightGray">
+              <h5><b>PLAN ORGANIZACIONES</b></h5>
+            </span>
+            <br>
+            <p class="price-text"><span class="text-orange">
+              <span>$2,880</span>
+              <br>
+              <sub>MXN</sub></span>
+            </p>
+            <p id="price-monthly">Suscripción anual por médico</p>
+            <div class="margin-top"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--NimboX GOLD-->
+
+    <div class="col-md-4 margin-top">
+      <div class="box-purple">
+        <div class="row margin-top">
+          <div class="col-md-10 col-md-offset-1 align-center">
+            <span class="text-lightGray">
+              <h5><b>NIMBO X GOLD</b></h5>
+            </span>
+            <br>
+            <p class="price-text"><span class="text-purple">
+              <span>$1,500</span>
+              <br>
+              <sub>MXN</sub>
+              </span>
+            </p>
+            <p id="price-monthly">Suscripción anual</p>
+            <div class="margin-top"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--NimboX-->
+
+    <div class="col-md-4 margin-top">
+      <div class="box-blue">
+        <div class="row margin-top">
+          <div class="col-md-10 col-md-offset-1 align-center">
+            <span class="text-lightGray">
+              <h5><b>PLAN GRATIS</b></h5>
+            </span>
+              <br>
+            <p class="price-text">
+              <span class="text-teal">$0
+              <br>
+              <sub>MXN</></sub></span>
+            </p>
+            <p id="price-monthly">Suscripción anual</p>
+            <div class="margin-top"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-top">
+      <div class="col-md-8 col-md-offset-2">
+        <table class="table table-bordered margin-top">
+          <tr>
+            <td>Expediente Clínico Electrónico</td>
+            <td><img class="img-15 img-center" src="img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="img/check-purple.png"></td>
+            <td><img class="img-15 img-center" src="img/check-blue.png"></td>
+          </tr>
+          <tr>
+            <td>Agenda Médica</td>
+            <td><img class="img-15 img-center" src="img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="img/check-purple.png"></td>
+            <td><img class="img-15 img-center" src="img/check-blue.png"></td>
+          </tr>
+          <tr>
+            <td>Receta Médica</td>
+            <td><img class="img-15 img-center" src="img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="img/check-purple.png"></td>
+            <td><img class="img-15 img-center" src="img/check-blue.png"></td>
+          </tr>
+          <tr>
+            <td>Cuenta Asistente</td>
+            <td><img class="img-15 img-center" src="img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="img/check-purple.png"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Expediente Centralizado</td>
+            <td><img class="img-15 img-center" src="img/check-orange.png"></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row margin-smalltop">
+      <div class="col-md-12 align-center margin-mediumtop">
+        <a href="/precios/" class="btn-blue">Ver Más</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<!--Testimonios-->
+
+<div class="clientes" id="clientes">
+  <div class="container">
+    <div class="row margin-extratop">
+      <div class="col-md-6 col-md-offset-3 margin-top">
+        <h5 align="center"><span class="text-lightGray"><b>ELLOS NOS RECOMIENDAN</b></span></h5>
+          <hr>
+      </div>
+    </div>
+    <div class="row margin-smalltop">
+      <div class="col-md-7">
+        <div class="col-md-2 margin-xstop">
+          <img class="img-70 mobile-hide" src="img/avatar-1.png">
+        </div>
+        <div class="col-md-10 arrow_box">
+          <p><img class="img-quote"src="img/quote-bef.png">[Con Nimbo X] Ahorro tiempo en la atención al paciente y tengo enorme facilidad de consultar en el momento que quiera el expediente de mis pacientes. <img class="img-quote-aft"src="img/quote-aft.png"><br></p>
+          <p><span class="text-lightGray"><i>- Dr. F. Kurt Overhage H., Médico Internista.</i></span></p>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="col-md-3 margin-xstop">
+          <img class="img-70 mobile-hide" src="img/avatar-3.png">
+        </div>
+        <div class="col-md-9 arrow_box">
+          <p><img class="img-quote"src="img/quote-bef-blue.png">Amo su plataforma y la estructura de la historia clínica, los datos a solicitar y los mostrados en el historial de consultas es muy sencillo y concreto. Además el anclaje a Google Calendar hace más fácil alos pacientes recordar sus citas y asistir a consulta. <img class="img-quote-aft"src="img/quote-aft-blue.png"><br></p>
+          <p><span class="text-lightGray"><i>- Nadllely Sámano Márquez, Nutrióloga</i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-smalltop">
+      <div class="col-md-5 margin-neg">
+        <div class="col-md-9 arrow_box_right">
+          <p><img class="img-quote"src="img/quote-bef-yellow.png">Mayor control de alergias y patologías crónico degenerativas, por lo cual eso permite un mejor tratamiento y evolución en el paciente. <img class="img-quote-aft"src="img/quote-aft-yellow.png"><br></p>
+          <p><span class="text-lightGray"><i>- Janeth Carrillo Sanchez, Médico General</i></span></p>
+        </div>
+        <div class="col-md-3 margin-xstop">
+          <img class="img-70 mobile-hide" src="img/avatar-4.png">
+        </div>
+      </div>
+      <div class="col-md-7 margin-smalltop">
+        <div class="col-md-9 arrow_box_right">
+          <p><img class="img-quote"src="img/quote-bef-teal.png">Con Nimbo X puede crear, revisar y enviar datos clínicos desde cualquier parte del mundo. Mis pacientes me acompañan a dónde yo vaya con Nimbo X. Colegas ¡¡prueben esta aplicación!! <img class="img-quote-aft"src="img/quote-aft-teal.png"><br></p>
+          <p><span class="text-lightGray"><i>- Dr. Eric González, Médico General</i></span></p>
+        </div>
+        <div class="col-md-3 margin-xstop">
+          <img class="img-70 mobile-hide" src="img/avatar-2.png">
+        </div>
+      </div>
+    </div>
+    <div class="row margin-top">
+      <div class="col-md-12">
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="img/social-0.png">
+        </div>
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="img/social-03.png">
+        </div>
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="img/social-02.png">
+        </div>
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="img/social-01.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Registro-->
+
+<div class="registro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 align-center">
+        <h2><span class="text-white">¡Nimbo X es Gratis!</span></h2>
+        <h4><span class="text-white">Registrate hoy mismo y Empieza tu próxima consulta con Nimbo X.</span></h4>
+      </div>
+    </div>
+    <div class="row margin-mediumtop align-center">
+      <div class="col-md-6 col-md-offset-3">
+        <a class="btn-stroke-white" id="hire-link" href="https://app.nimbo-x.com/accounts/new"target="__blank">Registrarme</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Social Media-->
+
+<!--div class="social">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 align-center">
+        <h3><span class="text-white"><b>SÍGUENOS</b></span></h3>
+        <p><span class="text-white">Somos sociales, síguenos en Facebook y Twitter</span></p>
+        <p><a href="https://www.facebook.com/nimboxECE" target="__blank"><img src="img/facebook.png" alt="facebook"></a><a href="https://twitter.com/Nimbo_X" target="__blank"><img src="img/twitter.png" alt="twitter"></a></p>
+      </div>
+    </div>
+  </div>
+</div-->
+
+<div class="modal fade" id="demo-modal"  tabindex="-1" role="dialog" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Solicita una Demo</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row margin-top">
+          <div class="col-md-10 col-md-offset-1">
+            <form id="form7" name="form7" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://ecaresoft.wufoo.com.mx/forms/p1x5y7oi0qky0ck/#public">
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-12">
+                    <input id="Field19" name="Field19" type="text" class="form-control" placeholder="Nombre*" required />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-12">
+                    <input id="Field2" name="Field2" type="email" class="form-control" placeholder="Email*"required />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-12">
+                    <select id="Field17" name="Field17" class="form-control" placeholder="Especialidad*" required >
+                      <option value="" selected="selected">Especialidad*</option>
+                      <option value="Anestesiolog&iacute;a" >
+                      Anestesiología
+                      </option>
+                      <option value="Pediatr&iacute;a" >
+                      Pediatría
+                      </option>
+                      <option value="Odontolog&iacute;a" >
+                      Odontología
+                      </option>
+                      <option value="Ginecolog&iacute;a" >
+                      Ginecología
+                      </option>
+                      <option value="Cirug&iacute;a" >
+                      Cirugía
+                      </option>
+                      <option value="Nutruci&oacute;n" >
+                      Nutrución
+                      </option>
+                      <option value="Internista" >
+                      Internista
+                      </option>
+                      <option value="Otro" >
+                      Otro
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-12">
+                    <textarea iid="Field15" name="Field15"class="form-control field textarea medium" rows="12" cols="50" placeholder="Mensaje" /></textarea>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <input type="hidden" id="idstamp" name="idstamp" value="6jOeU82fTjbZvtj7j769ZPJE5NA9lRRNzY0iedWTKS8=" /><div class="clear" align="right"> <button type="submit" id="unete2-link" class="btn btn-secondary">ENVIAR</div>
+      </div>
+      </form> 
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--Banner-->
+
+<!--
+<div class="banner">
+  <div class="container">
+    <div class="row align-center">
+      <h4>Nimbo X es una iniciativa de eCareSoft, Inc; Nimbo X es una nueva plataforma de Expediente Clínico Electrónico, enfocado en ser extremadamente fácil de usar e implementar en tu consultorio. Creemos que es hora de modernizar la medicina en México, por lo que Nimbo X es totalmente gratis.</h4>
+    </div>
+  </div>
+</div>
+!-->
+    <!--Footer-->
+
+ <div class="footer">
+    <div class="container">
+      <div class"row">
+        <div class="col-md-3">
+          <img class="img-100" src="img/logo-white.png">
+          <p class="margin-smalltop"><span class="text-teal">En Nimbo X ayudamos a organizaciones médicas a llevar un mejor control de sus operaciones.</span></p>
+          <p class="margin-smalltop">Producto de Ecaresoft Inc.<br>
+          © 2017 All Rights Reserved.<br>
+          Made with ❤ in house.</p>
+        </div>
+        <div class="col-md-2">
+          <p><b>EXPLORA</b></p>
+          <ul class="list-group">
+            <li class="margin-smalltop"><a href="/">Inicio</a></li>
+            <li class="margin-xstop"><a href="/modulos/">Producto</a></li>
+            <li class="margin-xstop"><a href="/precios/">Precios</a></li>
+            <li class="margin-xstop"><a href="https://blog.nimbo-x.com/" target="__blank">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <p><b>SOLUCIONES</b></p>
+          <ul class="list-group">
+            <li class="margin-smalltop"><a href="/modulos/">Doctores</a></li>
+            <li class="margin-xstop"><a href="/clinicas/">Clínicas</a></li>
+            <li class="margin-xstop"><a href="/farmacias/">Farmacias</a></li>
+            <li class="margin-xstop"><a href="/dentistas/">Dentistas</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <p><b>NOSOTROS</b></p>
+          <ul class="list-group">
+            <li class="margin-smalltop"><a href="/about/">Equipo</a></li>
+            <li class="margin-xstop"><a href="/faq/">Preguntas Frecuentes</a></li>
+            <li class="margin-xstop"><a href="http://www.ecaresoft.com/" target="__blank">Sobre Ecaresoft</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+          <p><b>CONTACTO</b></p>
+          <ul class="list-group">
+            <li><a href="mailto:hola@nimbo-x.com">hola@nimbo-x.com</a></li>
+            <li><a href="mailto:soporte@nimbo-x.com">soporte@nimbo-x.com</a></li>
+          </ul>
+          <a href="https://www.facebook.com/nimboxECE" target="__blank"><img class="img-30"src="img/facebook2.png"></a>
+          <a href="https://twitter.com/nimbo_x" target="__blank"><img class="img-30" src="img/twitter2.png"></a>
+          <a href="https://www.instagram.com/nimbo.x/" target="__blank"><img class="img-30" src="img/instagram2.png"></a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 966535395;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/966535395/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+  </div>
+
+  <div class="modal fade" id="modal-demo" role="dialog" aria-hidden="true" tabindex='-1'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Pide una Demo</h4>
+        <!--<p>Llena la siguiente información y estaremos en contacto contigo en cuanto antes. También estas bienvenido a contactarnos directamente a nuestras oficinas al (81) 8100-9099.</p>-->
+      </div>
+      <div class="modal-body">
+
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+        hbspt.forms.create({
+          portalId: '2262166',
+          formId: 'c0ebe9ce-daa8-4490-ba82-42b02a142c3e'
+          });
+        </script>
+      </div>  
+    </div>
+  </div>
+</div>
+  <div class="modal fade" id="modal-about" role="dialog" aria-hidden="true" tabindex='-1'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Contáctanos</h4>
+        <!--<p>Llena la siguiente información y estaremos en contacto contigo en cuanto antes. También estas bienvenido a contactarnos directamente a nuestras oficinas al (81) 8100-9099.</p>-->
+      </div>
+      <div class="modal-body">
+
+        <!--[if lte IE 8]>
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+      <![endif]-->
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+      <script>
+      hbspt.forms.create({ 
+      portalId: '2262166',
+      formId: '662d231e-58e8-4c8a-b8aa-f18d76bc8387'
+        });
+        </script>
+      </div>  
+    </div>
+  </div>
+</div>
+  <div class="modal fade" id="modal-far" role="dialog" aria-hidden="true" tabindex='-1'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Contáctanos</h4>
+        <!--<p>Llena la siguiente información y estaremos en contacto contigo en cuanto antes. También estas bienvenido a contactarnos directamente a nuestras oficinas al (81) 8100-9099.</p>-->
+      </div>
+      <div class="modal-body">
+
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+          hbspt.forms.create({ 
+            portalId: '2262166',
+            formId: 'b5e7701f-a9d8-4de9-a01c-9f89c7cf1287'
+          });
+        </script>
+      </div>  
+    </div>
+  </div>
+</div>
+  
+    
+    <script>
+      window.intercomSettings = {
+        app_id: "j11slqdo"
+      };
+    </script>
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/j11slqdo';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+    <!-- end of body scripts -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script><script src="js/typed.js"></script> 
+
+    <script type="text/javascript">
+    $(function(){
+      $(".rotating-text").typed({
+          strings: ["Consultorio.", "Clínica.", "Cadena de Farmacias.", "Clínica Dental.", "Consulta Médica."],
+          typeSpeed: 50,
+          backDelay: 800,
+          shuffle: false,
+          loop: true,
+      });
+    });
+    </script>
+
+  
+     <!-- Twitter universal website tag code -->
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+    <script type="text/javascript">twttr.conversion.trackPid('nuwn9', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+    <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nuwn9&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /> <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nuwn9&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /> </noscript>
+     <!-- End Twitter universal website tag code -->
+
+
+     <!-- Google Code for Sign up to app Conversion Page
+ In your html page, add the snippet and call
+ goog_report_conversion when someone clicks on the
+ chosen link or button. -->
+ <script type="text/javascript">
+   if (geoplugin_countryCode() == "AU") {
+    window.location.replace('/au');
+   }
+   /* <![CDATA[ */
+   goog_snippet_vars = function() {
+     var w = window;
+     w.google_conversion_id = 966535395;
+     w.google_conversion_label = "GiPyCKSO8GsQ49HwzAM";
+     w.google_remarketing_only = false;
+   }
+   // DO NOT CHANGE THE CODE BELOW.
+   goog_report_conversion = function(url) {
+     goog_snippet_vars();
+     window.google_conversion_format = "3";
+     var opt = new Object();
+     opt.onload_callback = function() {
+     if (typeof(url) != 'undefined') {
+       window.location = url;
+     }
+   }
+   var conv_handler = window['google_trackConversion'];
+   if (typeof(conv_handler) == 'function') {
+     conv_handler(opt);
+   }
+ }
+ /* ]]> */
+
+ var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+ }
+ </script>
+ <script type="text/javascript"
+   src="//www.googleadservices.com/pagead/conversion_async.js">
+ </script>
+
+
+
+  </body>
+</html>
