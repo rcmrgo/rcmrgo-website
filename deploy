@@ -1,0 +1,33 @@
+#!/bin/bash
+echo 'Empezando build...'
+middleman build
+echo 'Termine build...'
+git checkout gh-pages
+git pull origin gh-pages
+rm -rf about
+rm -rf agenda
+rm -rf css
+rm -rf faq
+rm -rf fonts
+rm -rf gracias
+rm -rf img
+rm -rf js
+rm -rf modulos
+rm -rf precios
+rm -rf dentistas
+rm -rf odontograma
+rm -rf nueva-funcionalidad
+rm -rf farmacias
+rm -rf odontograma
+rm -rf downloads
+rm -rf registrate-gratis
+rm -rf au
+rm -rf ar
+rm -rf es
+rm -rf clinicas
+rm -rf guias
+mv build/* .
+git add -A
+git commit -m 'Update Nimbo-X page'
+git push origin gh-pages
+echo 'Termine'

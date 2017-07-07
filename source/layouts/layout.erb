@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><%= current_page.data.title || "Nimbo X - Más que un ECE, un Digital Patient Management System." %></title>
+    <meta name="description" content="Nimbo X es el primer Expediente Clínico Electrónico totalmente gratis para consultorios médicos en LatAm">
+    <meta property="og:url" content="http://www.nimbo-x.com" />
+    <meta property="og:title" content="Nimbo X - Tu Consultorio Médico en la Nube, Gratis." />
+    <meta property="og:description" content="Nimbo X es el primer Expediente Clínico Electrónico en español totalmente gratis para consultorios médicos." />
+    <meta property="og:image" content="http://www.nimbo-x.com/img/social.png" />
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <!-- hreflang codes -->
+    <link rel="alternate" hreflang="es" href="http://www.nimbo-x.com<%= current_page.data.path %>" />
+    <link rel="alternate" hreflang="es-ar" href="http://www.nimbo-x.com/ar<%= current_page.data.path %>" />
+    <link rel="alternate" hreflang="es-es" href="http://www.nimbo-x.com/es<%= current_page.data.path %>" />
+    <% if current_page.data.path_en? %>
+    <link rel="alternate" hreflang="en-au" href="http://www.nimbo-x.com/au<%= current_page.data.path_en %>" />
+    <% end %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= stylesheet_link_tag "bootstrap", "style" %>
+    <script src="https://cdn.optimizely.com/js/2450820186.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20755856-7', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    <!-- Begin Inspectlet Embed Code -->
+    <script type="text/javascript" id="inspectletjs">
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 514435355]);
+    (function() {
+    function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+    })();
+    </script>
+<!-- End Inspectlet Embed Code -->
+
+    <!-- Facebook Pixel Code -->
+
+   <script>
+     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+     t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '1442067832502465'); // Insert your pixel ID here.
+     fbq('track', 'PageView');
+     </script>
+     <noscript><img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1442067832502465&ev=PageView&noscript=1"
+     /></noscript>
+     <!-- DO NOT MODIFY -->
+     <!-- End Facebook Pixel Code -->
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+    <%= partial "navbar" %>
+    <%= yield %>
+    <%= partial "footer" %>
+  <%= partial(:modal, :locals => { :title => "Pide una Demo", :modal_id => "modal-demo"}) %>
+  <%= partial(:modal_about, :locals => { :title => "Contáctanos", :modal_id => "modal-about"}) %>
+  <%= partial(:modal_far, :locals => { :title => "Contáctanos", :modal_id => "modal-far"}) %>
+  
+    
+    <% if development? %>
+    <script>
+      window.intercomSettings = {
+        app_id: "jzqe5vhg"
+      };
+    </script>
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/jzqe5vhg';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+    <% end %>
+    <% if build? %>
+    <script>
+      window.intercomSettings = {
+        app_id: "j11slqdo"
+      };
+    </script>
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/j11slqdo';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+    <% end %>
+    <!-- end of body scripts -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <%= javascript_include_tag  "bootstrap", "typed" %> 
+
+    <script type="text/javascript">
+    $(function(){
+      $(".rotating-text").typed({
+          strings: ["Consultorio.", "Clínica.", "Cadena de Farmacias.", "Clínica Dental.", "Consulta Médica."],
+          typeSpeed: 50,
+          backDelay: 800,
+          shuffle: false,
+          loop: true,
+      });
+    });
+    </script>
+
+  
+     <!-- Twitter universal website tag code -->
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+    <script type="text/javascript">twttr.conversion.trackPid('nuwn9', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+    <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nuwn9&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /> <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nuwn9&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /> </noscript>
+     <!-- End Twitter universal website tag code -->
+
+
+     <!-- Google Code for Sign up to app Conversion Page
+ In your html page, add the snippet and call
+ goog_report_conversion when someone clicks on the
+ chosen link or button. -->
+ <script type="text/javascript">
+   if (geoplugin_countryCode() == "AU") {
+    window.location.replace('/au');
+   }
+   /* <![CDATA[ */
+   goog_snippet_vars = function() {
+     var w = window;
+     w.google_conversion_id = 966535395;
+     w.google_conversion_label = "GiPyCKSO8GsQ49HwzAM";
+     w.google_remarketing_only = false;
+   }
+   // DO NOT CHANGE THE CODE BELOW.
+   goog_report_conversion = function(url) {
+     goog_snippet_vars();
+     window.google_conversion_format = "3";
+     var opt = new Object();
+     opt.onload_callback = function() {
+     if (typeof(url) != 'undefined') {
+       window.location = url;
+     }
+   }
+   var conv_handler = window['google_trackConversion'];
+   if (typeof(conv_handler) == 'function') {
+     conv_handler(opt);
+   }
+ }
+ /* ]]> */
+
+ var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+ }
+ </script>
+ <script type="text/javascript"
+   src="//www.googleadservices.com/pagead/conversion_async.js">
+ </script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,414 @@
+---
+path: /
+path_en: /
+---
+<!--Header-->
+
+<div class="header">
+  <div class="container">
+    <div class="row align-center">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Organiza tu <span class=" rotating-text"></span><br>Digitaliza tus Expedientes.</h1>
+      </div>
+    </div>
+    <div class="row align-center">
+      <div class="col-md-8 col-md-offset-2 margin-smalltop">
+        <h4><span class="text-mediumGray">Nimbo X te permite administrar toda la información <br>de tus pacientes desde una sola aplicación.</span></h4>
+      </div>
+    </div>
+    <div class="row align-center">
+      <div class="col-md-12 margin-smalltop">
+        <a class="btn-blue" onclick="goog_report_conversion('https://app.nimbo-x.com/accounts/new'); trackOutboundLink('https://app.nimbo-x.com/accounts/new'); return false;"  href="https://app.nimbo-x.com/accounts/new">Registrate Gratis</a>
+        <%= link_to 'Conoce los Planes', extensions[:i18n].localized_path('/precios.html', I18n.locale), :class=>'btn-teal mobile-hide' %>
+      </div>
+    </div>
+    <div class="row align-center">
+      <div class="col-md-12 margin-mediumtop">
+        <a data-toggle="modal" data-target="#modal-demo" href="#"><span class="text-lightGray"><u>Pide una Demo</u></span></a>
+      </div>
+    </div>
+    <div class="row align-center mobile-hide">
+      <div class="col-md-12 margin-top">
+        <script src="https://fast.wistia.com/embed/medias/o7rw9thhkq.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_o7rw9thhkq popover=true popoverContent=link" style="display:inline"><a href="#"><img class="img-banner"src="/img/header-screen-01.png"></a></span>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Beneficios-->
+
+<div class="beneficios">
+  <div class="container">
+    <div class="row margin-mediumtop">
+      <div class="col-md-6 align-center">
+        <img class="img-header margin-bigtop"src="/img/ilus-macbook.png">
+      </div>
+      <div class="col-md-6">
+        <h5><span class="text-lightGray"><b>SIEMPRE DEBIÓ DE SER FÁCIL.</b></span></h5>
+        <h3>Descubre los beneficios de integrar toda la información de tu organización en la nube.</h3>
+        <div class="row margin-mediumtop">
+          <div class="col-md-1">
+            <img class="img-30 margin-xstop" src="/img/check.png">
+          </div>
+          <div class="col-md-10">
+            <h4>Tu información organizada</h4>
+            <p>Lleva un mejor control de tu consultorio sin importar donde estés.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <img class="img-30 margin-xstop" src="/img/check.png">
+          </div>
+          <div class="col-md-10">
+            <h4>Haz más ágil tu consulta</h4>
+            <p>En segundos puedes consultar el expediente de pacientes, crear nuevas consultas o revisar tu agenda de los próximos días.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <img class="img-30 margin-xstop" src="/img/check.png">
+          </div>
+          <div class="col-md-10">
+            <h4>Tu información está segura</h4>
+            <p>Contamos con los niveles más altos de encriptación y toda la información está respaldada en nuestros servidores en Estados Unidos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<!-- Banner -->
+
+<div class="banner-screen">
+  <div class="container-fluid">
+    <div class="row margin-top">
+      <div class="col-md-5 col-md-offset-1">
+        <h3><img class="img-40" src="/img/heart.png">Nuestros usuarios nos aman.</h3>
+        <p class="margin-smalltop">Desarrollamos Nimbo X pensando en médicos como tu. <br>El 93% de nuestros usuarios están tan satisfechos que nos recomiendan a sus colegas.<br><b>¡Descargala hoy en tu Desktop!</b></p>
+        <div class="row margin-top">
+          <a class="btn-purple" href="http://goo.gl/Oc4oui">Descarga para Windows</a>
+          <a class="btn-blue" href="http://goo.gl/wsHbJW">Descarga para Mac</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Features-->
+
+<div class="features">
+  <div class="container">
+    <div class="row margin-extratop">
+      <div class="col-md-8 col-md-offset-2 margin-top">
+        <h5 align="center"><span class="text-blue"><b>¿TU EXPEDIENTE ACTUAL TIENE ESTO?</b></span></h5>
+        <h4 align="center">Nimbo X tiene toda la funcionalidad que necesitas para llevar <br>un control rápido, sencillo y eficaz de todos los datos de tu organización.</h4>
+        <hr>
+      </div>
+    </div>
+    <div class="row margin-smalltop margin-bigbottom">
+      <div class="col-md-12">
+        <div class="row margin-smalltop">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="/img/cal.png">
+                <h4 class="margin-smalltop">Agenda Médica</h4>
+                <p>Planifica, agenda y controla tus consultas con una agenda integrada a los expedientes de tus pacientes.</p>
+              </div>
+            </div>
+            <div class="row margin-top">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="/img/asist.png">
+                <h4 class="margin-smalltop">Cuentas para asistentes</h4>
+                <p>Tu asistente podrá ayudarte a manejar tu agenda médica para que tu te encargues de tratar a tus pacientes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="/img/file.png">
+                <h4 class="margin-smalltop">Historia Clínica y Notas de evolución</h4>
+                <p>LLleva tus notas de consultas, historia clínica, estudios de gabinete y recetas médicas en la nube.</p>
+              </div>
+            </div>
+            <div class="row margin-top">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="/img/file1.png">
+                <h4 class="margin-smalltop">Almacenamiento de archivos</h4>
+                <p>Completa el expediente de tus pacientes adjuntando sus radiografías, estudios de laboratorio o fotos del padecimiento.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="/img/print.png">
+                <h4 class="margin-smalltop">Impresión de recetas y expedientes</h4>
+                <p>Configura tu receta médica y ten disponible la opción de imprimir los expedientes de tus pacientes</p>
+              </div>
+            </div>
+            <div class="row margin-top">
+              <div class="col-md-12">
+                <img class="margin-smalltop img-iconmod" src="/img/alert-01.png">
+                <h4 class="margin-smalltop">Interacciones entre Medicamentos</h4>
+                <p>Usamos la tecnología de Wolters Kluwer para analizar y darte alertas si hay interacciones entre los medicamentos que estás recetando.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bigtop">
+      <div class="col-md-12 align-center">
+        <%= link_to 'Ver más sobre los Módulos', extensions[:i18n].localized_path('/modulos.html', I18n.locale), :class=>'btn-teal'%>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Precios-->
+
+<div class="precios margin-bigtop">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 align-center">
+        <h5><span class="text-lightGray"><b>NIMBO X TE AHORRA DINERO Y TIEMPO.</b></span></h5>
+        <h4 class="margin-smalltop">Nimbo X en su versión básica siempre será gratis.<br> Si quieres desatar todo el potencial de almacenar tus datos en la nube con funcionalidades increíbles tenemos un plan especial para ti.</h4>
+        <hr>
+      </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1">
+
+<!--NimboX Org-->
+
+    <div class="col-md-4 margin-top">
+      <div class="box-orange">
+        <div class="row margin-top">
+          <div class="col-md-10 col-md-offset-1 align-center">
+            <span class="text-lightGray">
+              <h5><b>PLAN ORGANIZACIONES</b></h5>
+            </span>
+            <br>
+            <p class="price-text"><span class="text-orange">
+              <span>$<%= t(:org_price) %></span>
+              <br>
+              <sub><%= t(:currency) %></sub></span>
+            </p>
+            <p id="price-monthly">Suscripción anual por médico</p>
+            <div class="margin-top"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--NimboX GOLD-->
+
+    <div class="col-md-4 margin-top">
+      <div class="box-purple">
+        <div class="row margin-top">
+          <div class="col-md-10 col-md-offset-1 align-center">
+            <span class="text-lightGray">
+              <h5><b>NIMBO X GOLD</b></h5>
+            </span>
+            <br>
+            <p class="price-text"><span class="text-purple">
+              <span>$<%= t(:gold_price) %></span>
+              <br>
+              <sub><%= t(:currency) %></sub>
+              </span>
+            </p>
+            <p id="price-monthly">Suscripción anual</p>
+            <div class="margin-top"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--NimboX-->
+
+    <div class="col-md-4 margin-top">
+      <div class="box-blue">
+        <div class="row margin-top">
+          <div class="col-md-10 col-md-offset-1 align-center">
+            <span class="text-lightGray">
+              <h5><b>PLAN GRATIS</b></h5>
+            </span>
+              <br>
+            <p class="price-text">
+              <span class="text-teal">$0
+              <br>
+              <sub><%= t(:currency) %></></sub></span>
+            </p>
+            <p id="price-monthly">Suscripción anual</p>
+            <div class="margin-top"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-top">
+      <div class="col-md-8 col-md-offset-2">
+        <table class="table table-bordered margin-top">
+          <tr>
+            <td>Expediente Clínico Electrónico</td>
+            <td><img class="img-15 img-center" src="/img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="/img/check-purple.png"></td>
+            <td><img class="img-15 img-center" src="/img/check-blue.png"></td>
+          </tr>
+          <tr>
+            <td>Agenda Médica</td>
+            <td><img class="img-15 img-center" src="/img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="/img/check-purple.png"></td>
+            <td><img class="img-15 img-center" src="/img/check-blue.png"></td>
+          </tr>
+          <tr>
+            <td>Receta Médica</td>
+            <td><img class="img-15 img-center" src="/img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="/img/check-purple.png"></td>
+            <td><img class="img-15 img-center" src="/img/check-blue.png"></td>
+          </tr>
+          <tr>
+            <td>Cuenta Asistente</td>
+            <td><img class="img-15 img-center" src="/img/check-orange.png"></td>
+            <td><img class="img-15 img-center" src="/img/check-purple.png"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Expediente Centralizado</td>
+            <td><img class="img-15 img-center" src="/img/check-orange.png"></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row margin-smalltop">
+      <div class="col-md-12 align-center margin-mediumtop">
+        <%= link_to 'Ver Más',  extensions[:i18n].localized_path('/precios.html', I18n.locale), class:'btn-blue' %>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<!--Testimonios-->
+
+<div class="clientes" id="clientes">
+  <div class="container">
+    <div class="row margin-extratop">
+      <div class="col-md-6 col-md-offset-3 margin-top">
+        <h5 align="center"><span class="text-lightGray"><b>ELLOS NOS RECOMIENDAN</b></span></h5>
+          <hr>
+      </div>
+    </div>
+    <div class="row margin-smalltop">
+      <div class="col-md-7">
+        <div class="col-md-2 margin-xstop">
+          <img class="img-70 mobile-hide" src="/img/avatar-1.png">
+        </div>
+        <div class="col-md-10 arrow_box">
+          <p><img class="img-quote"src="/img/quote-bef.png">[Con Nimbo X] Ahorro tiempo en la atención al paciente y tengo enorme facilidad de consultar en el momento que quiera el expediente de mis pacientes. <img class="img-quote-aft"src="/img/quote-aft.png"><br></p>
+          <p><span class="text-lightGray"><i>- Dr. F. Kurt Overhage H., Médico Internista.</i></span></p>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="col-md-3 margin-xstop">
+          <img class="img-70 mobile-hide" src="/img/avatar-3.png">
+        </div>
+        <div class="col-md-9 arrow_box">
+          <p><img class="img-quote"src="/img/quote-bef-blue.png">Amo su plataforma y la estructura de la historia clínica, los datos a solicitar y los mostrados en el historial de consultas es muy sencillo y concreto. Además el anclaje a Google Calendar hace más fácil alos pacientes recordar sus citas y asistir a consulta. <img class="img-quote-aft"src="/img/quote-aft-blue.png"><br></p>
+          <p><span class="text-lightGray"><i>- Nadllely Sámano Márquez, Nutrióloga</i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-smalltop">
+      <div class="col-md-5 margin-neg">
+        <div class="col-md-9 arrow_box_right">
+          <p><img class="img-quote"src="/img/quote-bef-yellow.png">Mayor control de alergias y patologías crónico degenerativas, por lo cual eso permite un mejor tratamiento y evolución en el paciente. <img class="img-quote-aft"src="/img/quote-aft-yellow.png"><br></p>
+          <p><span class="text-lightGray"><i>- Janeth Carrillo Sanchez, Médico General</i></span></p>
+        </div>
+        <div class="col-md-3 margin-xstop">
+          <img class="img-70 mobile-hide" src="/img/avatar-4.png">
+        </div>
+      </div>
+      <div class="col-md-7 margin-smalltop">
+        <div class="col-md-9 arrow_box_right">
+          <p><img class="img-quote"src="/img/quote-bef-teal.png">Con Nimbo X puede crear, revisar y enviar datos clínicos desde cualquier parte del mundo. Mis pacientes me acompañan a dónde yo vaya con Nimbo X. Colegas ¡¡prueben esta aplicación!! <img class="img-quote-aft"src="/img/quote-aft-teal.png"><br></p>
+          <p><span class="text-lightGray"><i>- Dr. Eric González, Médico General</i></span></p>
+        </div>
+        <div class="col-md-3 margin-xstop">
+          <img class="img-70 mobile-hide" src="/img/avatar-2.png">
+        </div>
+      </div>
+    </div>
+    <div class="row margin-top">
+      <div class="col-md-12">
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="/img/social-0.png">
+        </div>
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="/img/social-03.png">
+        </div>
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="/img/social-02.png">
+        </div>
+        <div class="col-md-3" align="center">
+          <img class="img-social" src="/img/social-01.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Registro-->
+
+<div class="registro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 align-center">
+        <h2><span class="text-white">¡Nimbo X es Gratis!</span></h2>
+        <h4><span class="text-white">Registrate hoy mismo y Empieza tu próxima consulta con Nimbo X.</span></h4>
+      </div>
+    </div>
+    <div class="row margin-mediumtop align-center">
+      <div class="col-md-6 col-md-offset-3">
+        <a class="btn-stroke-white" id="hire-link" href="https://app.nimbo-x.com/accounts/new"target="__blank">Registrarme</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Social Media-->
+
+<!--div class="social">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 align-center">
+        <h3><span class="text-white"><b>SÍGUENOS</b></span></h3>
+        <p><span class="text-white">Somos sociales, síguenos en Facebook y Twitter</span></p>
+        <p><a href="https://www.facebook.com/nimboxECE" target="__blank"><img src="/img/facebook.png" alt="facebook"></a><a href="https://twitter.com/Nimbo_X" target="__blank"><img src="/img/twitter.png" alt="twitter"></a></p>
+      </div>
+    </div>
+  </div>
+</div-->
+
+<%= partial "demo_modal" %>
+
+<!--Banner-->
+
+<!--
+<div class="banner">
+  <div class="container">
+    <div class="row align-center">
+      <h4>Nimbo X es una iniciativa de eCareSoft, Inc; Nimbo X es una nueva plataforma de Expediente Clínico Electrónico, enfocado en ser extremadamente fácil de usar e implementar en tu consultorio. Creemos que es hora de modernizar la medicina en México, por lo que Nimbo X es totalmente gratis.</h4>
+    </div>
+  </div>
+</div>
+!-->

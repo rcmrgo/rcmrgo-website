@@ -1,0 +1,63 @@
+<!--Navbar-->
+<div class="<%= nav_class ||= nil %>" id="top">
+  <!--div class="banner-nav mobile-hide">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-center">
+          <p><span class="text-white">¡Descarga Nimbo X desde el App Store! Descrubre de que se trata</span><a href="http://blog.nimbo-x.com/10-razones-por-las-que-3000-medicos-descargaron-nimbo-x/" target="__blank"> <span class="text-white"><b><u>aquí.</u></b></span></a></p>
+        </div>
+      </div>
+    </div>
+  </div-->
+  <nav class="nav navbar navbar-default">
+    <div class="container">
+      <div class="row local">
+        <div class="col-md-offset-11 col-md-1 float-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#dd-products"><%= t(:country) %>▾</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/">MÉXICO</a></li>
+              <li><%= link_to 'ARGENTINA', '/ar/' %></li>
+              <li><%= link_to 'ESPAÑA','/es/' %></li>
+            </ul>
+          </li>
+        </div>
+      </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header margin-xstop">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-logo">
+        <% link_to extensions[:i18n].localized_path('/index.html', I18n.locale) do %>
+          <img class="img-nav" src="/img/logo1.png" alt="Nimbo X" />
+        <% end %>
+        </div>
+      </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse margin-xstop" id="bs-example-navbar-collapse-1">
+        <ul class="navbar-nav navbar-right">
+            <li><%= link_to 'Producto', extensions[:i18n].localized_path('/modulos.html', I18n.locale) %></li>
+            <li class="dropdown" id="productos-link">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#dd-products">Soluciones ▾</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><%= link_to 'Doctores', extensions[:i18n].localized_path('/modulos.html', I18n.locale) %></li>
+                  <li><%= link_to 'Clínicas', extensions[:i18n].localized_path('/clinicas.html', I18n.locale) %></li>
+                  <li><%= link_to 'Farmacias', extensions[:i18n].localized_path('/farmacias.html', I18n.locale) %></li>
+                  <li><%= link_to 'Dentistas', extensions[:i18n].localized_path('/dentistas.html', I18n.locale) %></li>
+
+                </ul>
+            </li>
+            <li><%= link_to 'Precios',  extensions[:i18n].localized_path('/precios.html', I18n.locale) %></li>
+            <li><%= link_to 'FAQ', extensions[:i18n].localized_path('/faq.html', I18n.locale) %></li>
+            <li><%= link_to 'Equipo', extensions[:i18n].localized_path('/about.html', I18n.locale) %></li>
+          <a class="btn-teal-nav" onclick="goog_report_conversion('https://app.nimbo-x.com/accounts/new'); trackOutboundLink('https://app.nimbo-x.com/accounts/new'); return false;" id="hire-link" href="https://app.nimbo-x.com/accounts/new" target="__blank">Registrate</a>
+          <a class="btn-green" onclick="trackOutboundLink('https://app.nimbo-x.com/'); return false;" id="hire-link" href="https://app.nimbo-x.com/" target="__blank">Login</a>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>

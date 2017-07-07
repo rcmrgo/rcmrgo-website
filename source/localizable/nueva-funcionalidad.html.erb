@@ -1,0 +1,82 @@
+---
+title: Nueva Funcionalidad | Nimbo X
+path: /nueva-funcionalidad/
+---
+
+<!--Header-->
+
+<div class="producto">
+  <div class="container">
+    <div class="row margin-extratop">
+      <div class="col-md-8 col-md-offset-2 align-center">
+        <h2><b>Nueva funcionalidad para una mejor experiencia.</b></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 align-center">
+        <h4 class="margin-smalltop">Estamos evolucionando constantemente. <br>Estas son algunas de las últimas mejoras que hemos hecho y otras que vienen en camino.</h4>
+      </div>
+    </div>
+    </div>
+  </div> 
+</div>
+
+<div class="proximamente">
+  <div class="container margin-bottom">
+    <div class="row margin-smalltop">
+      <div class="col-md-4 col-md-offset-4 align-center">
+        <p align="center"><span class="text-lightGray"><b> Próximamente </b></span></p>
+        <hr>
+      </div>
+    </div>
+    <div class="row margin-smalltop align-center">
+      <div class="col-md-10 col-md-offset-1">
+      <% data.features.coming_soon_features.each_slice(3) do |row| %>
+        <div class="row margin-smalltop">
+        <% row.each do |feature| %>
+          <div class="col-md-4">
+            <div class="box-blue">
+              <h3><%= feature.name %></h3>
+              <p class="margin-smalltop"><%= feature.description %></p>
+              <time class="text-lightGray"><%= feature.date %></time>
+            </div>
+          </div>
+        <% end %>
+        </div>
+      <% end %>
+      </div>
+    </div>
+    
+    <div class="row margin-top">
+      <div class="col-md-4 col-md-offset-4 align-center">
+        <p align="center"><span class="text-lightGray"><b> Nueva Funcionalidad </b></span></p>
+        <hr>
+      </div>
+    </div>
+    <div class="row margin-smalltop align-center">
+      <div class="col-md-10 col-md-offset-1">
+      <% data.features.released_features.each_slice(3) do |row| %>
+        <div class="row margin-smalltop">
+        <% row.each do |feature| %>
+          <div class="col-md-4">
+            <div class="box-green">
+              <h3><%= feature.name %></h3>
+              <p class="margin-smalltop"><%= feature.description %></p>
+              <time class="text-lightGray"><%= feature.date %></time>
+            </div>
+          </div>
+        <% end %>
+        </div>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
